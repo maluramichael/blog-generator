@@ -3,5 +3,5 @@
   "ignore": [
     "build"
   ],
-  "ext": "js,json,ejs,html,md"
+  "ext": "js,json,ejs,html,md,scss,css"
 }
