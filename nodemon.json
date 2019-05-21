@@ -1,0 +1,7 @@
+{
+  "verbose": false,
+  "ignore": [
+    "build"
+  ],
+  "ext": "js,json,ejs,html,md"
+}
