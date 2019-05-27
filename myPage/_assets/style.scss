@@ -1,3 +1,7 @@
-body {
-  background-color: rgb(70, 70, 70);
-}
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'fonts.scss';
+@import 'background.scss';
+
+@import 'core.scss';
+@import 'navigation.scss';
