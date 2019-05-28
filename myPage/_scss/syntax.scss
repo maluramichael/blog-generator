@@ -1,0 +1,9 @@
+pre {
+  background-color: #272822;
+  color: white;
+  margin: 0 (-$basePadding);
+  padding: $basePadding;
+  font-family: monospace;
+}
+
+@import '/assets/monokai.css'

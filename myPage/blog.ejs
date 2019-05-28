@@ -1,10 +1,9 @@
 <h1>BLOG</h1>
 <ul>
-  <% context.posts.forEach(function(post){ %>
+  <% context.posts.forEach((post)=>{ %>
   <li>
-    <a href="<%- post.relativeUrl %>"><%- post.name %></a>
+    <%- post.data.date.day + '.' + post.data.date.month + '.' + post.data.date.year %>
+    <a href="<%- post.url %>"><%- post.name %></a>
   </li>
   <% }); %>
 </ul>
-
-<pre><%- JSON.stringify(context.posts, null, 2) _%></pre>

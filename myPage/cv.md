@@ -1,19 +1,19 @@
 # Mein Werdegang
 
-### [IMV-Solutions GmbH](https://www.imv-solutions.com/)
+## [IMV-Solutions GmbH](https://www.imv-solutions.com/)
 Senior Software Developer (seit Januar 2019)
 
----
+***
 
-### [mobile-emotion GmbH](https://camigo.info/)
+## [mobile-emotion GmbH](https://camigo.info/)
 Senior Software Developer (Februar 2018 - Dezember 2018)
 * Die Stellplatzbranche mit [parcado](http://parcado.com/) digitalisiert
 * Wartung und Weiterentwicklung von [camigo](http://camigo.info/)
 * Eine Buchungsplattform für die Campingbranche entwickelt
 
----
+***
 
-### [Zoom7 GmbH](http://zoom7.io/)
+## [Zoom7 GmbH](http://zoom7.io/)
 Teamlead und Senior Software Developer (Februar 2017 - Februar 2018)
 * Ein Team von Mobile- und Backendentwicklern geleitet
 * Viele Projekte von Socialbit übernommen und weiterentwickelt
@@ -22,9 +22,9 @@ Teamlead und Senior Software Developer (Februar 2017 - Februar 2018)
 
 [Arbeitszeugnis](/files/documents/certificate_zoom7.pdf)
 
----
+***
 
-### [Socialbit GmbH](https://thomaskekeisen.de/de/blog/socialbit-insolvenz/)
+## [Socialbit GmbH](https://thomaskekeisen.de/de/blog/socialbit-insolvenz/)
 Teamlead und Senior Software Developer (Januar 2016 - Februar 2017)
 * Ein Team von Mobile- und Backendentwicklern geleitet
 * Neue Apps mit react-native entwickelt
@@ -33,9 +33,9 @@ Teamlead und Senior Software Developer (Januar 2016 - Februar 2017)
 
 [Arbeitszeugnis](/files/documents/certificate_socialbit.pdf)
 
----
+***
 
-### [Christ Elektronik GmbH](https://www.christ-es.com/)
+## [Christ Elektronik GmbH](https://www.christ-es.com/)
 Junior Software Developer (August 2011 - Dezember 2015)
 * Tools zur Generierung von 3D Sequenzen und Animationen entwickelt
 * Neue Elemente und Komponenten für [Visbee](http://www.visbee.de/) entwickelt
@@ -43,22 +43,22 @@ Junior Software Developer (August 2011 - Dezember 2015)
 
 [Arbeitszeugnis](/files/documents/certificate_christ.pdf)
 
----
+***
 
-### [CVS-Computer](https://www.cvs-computer.de/)
+## [CVS-Computer](https://www.cvs-computer.de/)
 Praktikant (April 2011)
 * Module für ein Inhouse-Shopsystem schreiben
 
----
+***
 
-### [Solution Informatik](http://www.solution-informatik.de/)
+## [Solution Informatik](http://www.solution-informatik.de/)
 Praktikant (September 2005)
 * Kollegen bei Kundenterminen helfen
 * Computer reparieren
 
 [Arbeitszeugnis](/files/documents/certificate_solution_informatik.pdf)
 
----
+***
 
 # Technologie-Stack
 
@@ -99,13 +99,10 @@ Praktikant (September 2005)
 
 # Schulischer Werdegang
 
-[NTA Isny](http://www.nta-isny.de/home.html) September 2007 - Juli 2010
-
-[Werkrealschule Wangen](http://www.gms-wangen.de/) September 2006 - Juli 2007
-
-[Regionale Schule Sohren Büchenbeuren](https://www.inrealplus.de/) September 2000 - Juli 2006
-
-[Grundschule Sohren](http://www.sohren.de/grundschule-sohren.html) September 1996 - Juli 2000
+* [NTA Isny](http://www.nta-isny.de/home.html) September 2007 - Juli 2010
+* [Werkrealschule Wangen](http://www.gms-wangen.de/) September 2006 - Juli 2007
+* [Regionale Schule Sohren Büchenbeuren](https://www.inrealplus.de/) September 2000 - Juli 2006
+* [Grundschule Sohren](http://www.sohren.de/grundschule-sohren.html) September 1996 - Juli 2000
 
 # Du hast einen Job für mich?
 

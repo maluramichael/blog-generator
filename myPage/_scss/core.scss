@@ -12,10 +12,16 @@ body {
       background-color: white;
 
       .inner {
-        padding: $basePadding;
+        padding: 0 $basePadding $basePadding $basePadding;
+        overflow: hidden;
       }
     }
   }
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
 }
 
 a {
@@ -32,8 +38,20 @@ p {
   margin-bottom: 1em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
 h1 {
   font-size: 2em;
+  margin-top: $basePadding;
+}
+
+h2 {
+  font-size: 1.7em;
 }
 
 hr {
