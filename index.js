@@ -22,7 +22,7 @@ program.command('build <source>').action(async (source, cmd) => {
     ...config,
     source
   });
-  builder.build();
+  // builder.build();
 });
 
 program.command('watch').action(async (cmd) => {
@@ -44,9 +44,7 @@ program.command('serve <source>').action(async (source, cmd) => {
   });
 
   builder.watch();
-  builder.on('change', (file) => {
-    triggerReload(syncInstance);
-  });
+  builder.on('change', (event, file) => triggerReload(syncInstance));
 });
 
 program.parse(process.argv);

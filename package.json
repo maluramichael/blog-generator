@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "babel-node index.js",
-    "watch": "babel-node index.js watch"
+    "nodemon": "nodemon --exec babel-node index.js build myPage"
   },
   "dependencies": {
     "async": "^3.0.0",
@@ -21,6 +21,8 @@
     "browser-sync": "^2.26.5",
     "chokidar": "^3.0.0",
     "express": "^4.17.0",
+    "http-server": "^0.11.1",
+    "js-yaml": "^3.13.1",
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.0"
   }

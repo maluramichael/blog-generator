@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  flex-direction: column;
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .bottom {
+    nav {
+      display: flex;
+
+      &>* {
+        transition: all 0.3s;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        font-size: 1em;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: white;
+        font-weight: bold;
+
+        &.active {
+          background-color: white;
+          color: black;
+        }
+
+        &:hover {
+          background-color: #eee;
+          color: black;
+        }
+      }
+    }
+  }
+
+  .header-title {
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .header-sub-title {}
+
+  .profile-picture {
+    width: $profilePictureSize;
+    height: $profilePictureSize;
+    min-width: $profilePictureSize;
+    min-height: $profilePictureSize;
+    border-radius: 50%;
+    //border: $borderSize solid $main;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    margin-right: 20px;
+
+    &:hover {
+      transform: rotateZ(8deg);
+    }
+  }
+}
