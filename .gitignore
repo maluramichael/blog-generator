@@ -1,3 +1,7 @@
 build/**
 .vscode/**
 node_modules/**
+myPage/config.json
+myPage/_cache/**/*
+myPage/_data/**/*
+myPage/_posts/**/*
