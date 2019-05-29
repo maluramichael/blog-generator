@@ -19,6 +19,21 @@ body {
   }
 }
 
+svg.icon {
+  width: 32px;
+  height: 32px;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: middle;
+  fill: $main;
+  background-color: $main;
+  padding: 10px;
+  stroke: white;
+
+  &.round {}
+}
+
 ul {
   list-style: disc;
   margin-left: 20px;
@@ -29,7 +44,6 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: inherit;
     font-weight: bold;
   }
 }

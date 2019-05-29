@@ -41,7 +41,10 @@ module.exports = class GatherGithub extends Gatherer {
           type: 'owner'
         });
 
-        repos = R.filter(R.propEq('fork', false), response.data);
+        repos = R.filter(R.allPass([
+          R.propEq('fork', false),
+          // R.propEq('private', false)
+        ]), response.data);
         await fs.writeFile(absoluteDataFilePath, JSON.stringify(repos, null, 2));
       }
       resolve({

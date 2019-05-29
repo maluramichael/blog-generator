@@ -1,1 +1,13 @@
 <h1>Projects</h1>
+<ul class="projects">
+  <% context.data.github.repos.forEach((repo)=>{ %>
+  <li class="project">
+    <%if(repo.private){%>
+    <%- repo.name %>
+    <%} else {%>
+    <a href="<%- repo.html_url %>" target="_blank"><%- repo.name %></a>
+    <%}%>
+    <span class="description"><%- repo.description %></span>
+  </li>
+  <% }); %>
+</ul>
