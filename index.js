@@ -16,12 +16,16 @@ const watchOptions = {
   ignored: ['node_modules/**', '.git/**', 'build/**']
 };
 
-program.command('build <source>').action(async (source, cmd) => {
+program.command('build <source> <destination>').action(async (source, destination, cmd) => {
   const config = JSON.parse(fs.readFileSync(path.join(source, 'config.json')));
-  const builder = new Builder({
+  const newConfig = {
     ...config,
-    source
-  });
+    source,
+    destination
+  };
+
+  console.log(source);
+  const builder = new Builder(newConfig);
   // builder.build();
 });
 

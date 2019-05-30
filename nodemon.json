@@ -1,8 +1,7 @@
 {
   "verbose": false,
   "ignore": [
-    "build",
-    "myPage/_cache"
+    "build"
   ],
   "ext": "js,json,ejs,html,md,scss,css"
 }
