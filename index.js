@@ -16,12 +16,18 @@ const watchOptions = {
   ignored: ['node_modules/**', '.git/**', 'build/**']
 };
 
-program.command('build <source> <destination>').action(async (source, destination, cmd) => {
+
+program.command('build <source> <destination>').option('-f, --fresh').action(async (source, destination, cmd) => {
+  const {
+    fresh
+  } = cmd.opts();
+
   const config = JSON.parse(fs.readFileSync(path.join(source, 'config.json')));
   const newConfig = {
     ...config,
     source,
-    destination
+    destination,
+    fresh
   };
 
   console.log(source);
